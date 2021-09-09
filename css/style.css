@@ -519,10 +519,6 @@ article .categories > li > a {
   list-style: square;
 }
 
-#sidor-container li li li {
-  list-style: circle;
-}
-
 #sidor-container {
   padding: 0;
   margin: 0;

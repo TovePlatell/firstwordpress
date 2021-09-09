@@ -15,7 +15,7 @@
                 <div class="container">
                     <div class="row">
                         <div id="primary" class="col-xs-12 col-md-9">
-                            <h1>
+                            <h1> Författare:
                                 <?php if(is_author()){
                                     the_author();
                                 } elseif(is_category()){
@@ -88,7 +88,7 @@
                                         <h2>Arkiv</h2>
                                         <ul>
                                             <li>
-                                                <?php wp_get_archives( array( 'type' => 'monthly', 'format' => 'option' ) ); ?>
+                                                <?php wp_get_archives( array( 'type' => 'monthly', 'format' => 'a' ) ); ?>
                                             </li>
                                         </ul>
                                     </li>

@@ -1,3 +1,0 @@
-# firstwordpress
-
-First wordpress task

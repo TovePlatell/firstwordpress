@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
@@ -20,9 +21,7 @@
                     <div class="col-sm-6 hidden-xs">
                         <form id="searchform" class="searchform">
                             <div>
-                                <label class="screen-reader-text">Sök efter:</label>
-                                <input type="text" />
-                                <input type="submit" value="Sök" />
+                                <?php get_search_form(); ?>
                             </div>
                         </form>
                     </div>

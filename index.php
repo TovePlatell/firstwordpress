@@ -14,5 +14,3 @@
 
 
 ?>
-
-Ingen koppling
